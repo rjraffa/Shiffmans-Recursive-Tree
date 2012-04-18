@@ -54,7 +54,6 @@ void testApp::draw(){
     for (int i = 0; i < leaves.size(); i++) {
         leaves[i].draw();
     }
-    
 
 }
 
