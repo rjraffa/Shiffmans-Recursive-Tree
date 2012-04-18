@@ -25,7 +25,7 @@ void testApp::update(){
             if (branches.size() < 1024) {
                 branches.push_back(branches[i].brancher((float)30));   // Add one going right
                 branches.push_back(branches[i].brancher((float)-30));   // Add one going left
-                branches.push_back(branches[i].brancher(ofRandom(0,30)));   //Add one going in an somewhat random direction
+                branches.push_back(branches[i].brancher(ofRandom(-25,25)));   //Add one going in a somewhat random direction
             } 
             else {
                 leaf newLeaf(branches[i].end);
